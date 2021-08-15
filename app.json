@@ -1,0 +1,55 @@
+{
+  "name": "OCR Bot",
+  "description": "Telegram bot to extract text from image",
+  "logo": "https://telegra.ph/file/243d5cb02e7aa0384358f.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      },
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-apt"
+      }
+    ],
+
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "repository": "https://github.com/StarkBotsIndustries/OCRBot",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Obtain a Telegram bot token by contacting @BotFather",
+      "required": true,
+      "value": ""
+    },
+    "TESSDATA_PREFIX": {
+      "description": "Don't touch/edit it, else the bot will crash. Let it as it is",
+      "required": true,
+      "value": "/app/.apt/usr/share/tesseract-ocr/4.00/tessdata"
+    }
+  },
+  "stack": "heroku-18"
+}
