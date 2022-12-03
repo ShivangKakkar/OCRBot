@@ -4,13 +4,12 @@ from Data import Data
 
 
 # Callbacks
-@Client.on_callback_query()
-async def _callbacks(bot, callback_query: CallbackQuery):
-    user = await bot.get_me()
-    mention = user["mention"]
+@Client.on_callback_query(group=2)
+async def _callbacks(bot, callback_query: CallbackQuery) -> None:
+    mention = bot.me.mention
     if callback_query.data.lower() == "home":
         chat_id = callback_query.from_user.id
-        message_id = callback_query.message.message_id
+        message_id = callback_query.message.id
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
@@ -19,7 +18,7 @@ async def _callbacks(bot, callback_query: CallbackQuery):
         )
     elif callback_query.data.lower() == "about":
         chat_id = callback_query.from_user.id
-        message_id = callback_query.message.message_id
+        message_id = callback_query.message.id
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
@@ -29,7 +28,7 @@ async def _callbacks(bot, callback_query: CallbackQuery):
         )
     elif callback_query.data.lower() == "help":
         chat_id = callback_query.from_user.id
-        message_id = callback_query.message.message_id
+        message_id = callback_query.message.id
         await bot.edit_message_text(
             chat_id=chat_id,
             message_id=message_id,
