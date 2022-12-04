@@ -11,14 +11,14 @@ Telegram bot to extract text from image
 ## Usage
 
 ### Deploy to Heroku
-
+<details>
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/StarkBotsIndustries/OCRBot)
 
 1. Tap on above button and fill `API_ID`, `API_HASH`, `BOT_TOKEN`.
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
 3. After deploying is complete, tap on "Manage App"
 4. Check the logs to see if your bot is ready!
-
+</details>
 ### Local Deploying
 
 1. Clone the repo
