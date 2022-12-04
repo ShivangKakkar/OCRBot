@@ -1,4 +1,4 @@
-# OCR Bot [@Image_To_Text_OCR_Bot](https://t.me/Image_To_Text_OCR_Bot)
+### OCR Bot [@Image_To_Text_OCR_Bot](https://t.me/Image_To_Text_OCR_Bot)
 
 > A star ⭐ from you means a lot to us!
 
@@ -11,6 +11,9 @@ Telegram bot to extract text from image
 ## Usage
 
 ### Deploy to Heroku
+<details>
+<summary>Steps to deploy</summary>
+
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/StarkBotsIndustries/OCRBot)
 
@@ -18,11 +21,14 @@ Telegram bot to extract text from image
 2. Then tap "Deploy App" below it. Wait till deploying is complete (will take atmost 2 minutes).
 3. After deploying is complete, tap on "Manage App"
 4. Check the logs to see if your bot is ready!
+</details>
 
 ### Local Deploying
+<details>
+<summary>Steps to deploy</summary>
 
 1. Clone the repo
-   ```markdown
+   ```console
    git clone https://github.com/StarkBotsIndustries/OCRBot
    ```
 
@@ -35,21 +41,22 @@ Telegram bot to extract text from image
 5. Edit `Config.py` and fill the needed variables
 
 6. Enter the directory
-   ```markdown
+   ```console
    cd OCRBot
    ```
   
 7. Install all requirements using pip.
-   ```markdown
+   ```console
    pip3 install -r requirements.txt
    ```
 
 8. Run the file
-   ```markdown
+   ```console
    python3 main.py
    ```
+</details>
 
-## Environment Variables
+### Environment Variables
 
 #### Mandatory Vars
 
