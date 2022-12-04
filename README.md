@@ -21,8 +21,10 @@ Telegram bot to extract text from image
 3. After deploying is complete, tap on "Manage App"
 4. Check the logs to see if your bot is ready!
 </details>
-### Local Deploying
 
+### Local Deploying
+<details>
+<summary>Steps to deploy</summary>
 1. Clone the repo
    ```markdown
    git clone https://github.com/StarkBotsIndustries/OCRBot
@@ -50,6 +52,7 @@ Telegram bot to extract text from image
    ```markdown
    python3 main.py
    ```
+</details>
 
 ## Environment Variables
 
