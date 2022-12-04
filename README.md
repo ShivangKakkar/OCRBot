@@ -27,7 +27,7 @@ Telegram bot to extract text from image
 <summary>Steps to deploy</summary>
 
 1. Clone the repo
-   ```markdown
+   ```console
    git clone https://github.com/StarkBotsIndustries/OCRBot
    ```
 
@@ -40,17 +40,17 @@ Telegram bot to extract text from image
 5. Edit `Config.py` and fill the needed variables
 
 6. Enter the directory
-   ```markdown
+   ```console
    cd OCRBot
    ```
   
 7. Install all requirements using pip.
-   ```markdown
+   ```console
    pip3 install -r requirements.txt
    ```
 
 8. Run the file
-   ```markdown
+   ```console
    python3 main.py
    ```
 </details>
