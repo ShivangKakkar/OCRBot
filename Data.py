@@ -46,13 +46,13 @@ More features in development. Keep track by joining @StarkBots.
     ABOUT = """
 **About This Bot** 
 
-Bot created by @StarkBots
+    • created by @StarkBots
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/OCRBot)
+    • Source Code : [Click Here](https://github.com/ShivangKakkarOCRBot)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+    • Framework : [Pyrogram](pyrogram.org)
 
-Language : [Python](www.python.org)
+    • Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+    • Developer : @StarkAgent
     """
